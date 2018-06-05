@@ -10,6 +10,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            //Declaration
+            string helloWorld;
+            //Initialization
+            helloWorld = "Hello World";
+
+            Console.WriteLine(helloWorld);
+            //Declaration       //Initialization
+            string question = Console.ReadLine();
+
+            Console.WriteLine(question);
         }
     }
 }
