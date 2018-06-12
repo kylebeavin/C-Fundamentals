@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _0._02_Classes_MSBankAccount_Tutorial
 {
-    class Transaction
+    public class Transaction
     {
         public decimal Amount { get; }
         public DateTime Date { get; }
@@ -19,6 +15,5 @@ namespace _0._02_Classes_MSBankAccount_Tutorial
             Notes = note;
         }
 
-        private List<Transaction> allTransactions = new List<Transaction>();
     }
 }
