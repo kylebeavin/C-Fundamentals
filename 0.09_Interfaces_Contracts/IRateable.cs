@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace _0._09_Interfaces_Contracts
 {
-    interface IRateable
+    public interface IRateable
     {
+        void PrintRestaurantName();
+        void PrintRestaurantRating();
+        void PrintRestaurantType();
     }
 }

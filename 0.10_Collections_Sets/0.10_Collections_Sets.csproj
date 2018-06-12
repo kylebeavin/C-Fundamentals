@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FEF1C2AC-8827-4791-B159-AF81015F7F75}</ProjectGuid>
+    <ProjectGuid>{B6C45992-8B48-489B-A86A-2DE02ABE9FD1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_0._09_Interfaces</RootNamespace>
-    <AssemblyName>0.09_Interfaces</AssemblyName>
+    <RootNamespace>_0._10_Collections_Sets</RootNamespace>
+    <AssemblyName>0.10_Collections_Sets</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,16 +44,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Restaurant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\0.09_Interfaces_Contracts\0.09_Interfaces_Contracts.csproj">
-      <Project>{3d1b430b-7227-416f-a8ba-816621ab35b4}</Project>
-      <Name>0.09_Interfaces_Contracts</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

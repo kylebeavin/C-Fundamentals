@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FEF1C2AC-8827-4791-B159-AF81015F7F75}</ProjectGuid>
+    <ProjectGuid>{82B9A15A-793C-4A32-B657-D5C0C18DE1AE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_0._09_Interfaces</RootNamespace>
-    <AssemblyName>0.09_Interfaces</AssemblyName>
+    <RootNamespace>_0._09_Interfaces_DependencyInjection</RootNamespace>
+    <AssemblyName>0.09_Interfaces_DependencyInjection</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,18 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BadCustomer.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="GoodCustomer.cs" />
+    <Compile Include="IMessage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Restaurant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\0.09_Interfaces_Contracts\0.09_Interfaces_Contracts.csproj">
-      <Project>{3d1b430b-7227-416f-a8ba-816621ab35b4}</Project>
-      <Name>0.09_Interfaces_Contracts</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

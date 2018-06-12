@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0._09_Interfaces_Contracts
+namespace _0._09Interfaces_DI_Practice
 {
-    public interface IFooable
+    interface IStartable
     {
-        void Foo();
+        void Start2();
     }
 }
